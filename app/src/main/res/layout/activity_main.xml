@@ -54,7 +54,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperationAdd"
             android:layout_weight="1"
             android:text="@string/division"/>
 
@@ -94,7 +94,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperationAdd"
             android:layout_weight="1"
             android:text="@string/multi"/>
 
@@ -134,7 +134,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperationAdd"
             android:layout_weight="1"
             android:text="@string/soustraction"/>
 
@@ -151,8 +151,16 @@
             android:layout_height="match_parent"
             android:layout_margin="2dp"
             android:onClick="onDigit"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:text="@string/_0"/>
+        <Button
+            android:id="@+id/btnDecimal"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:onClick="onDecimalPoint"
+            android:layout_weight="1"
+            android:text="@string/decimal"/>
         <Button
             android:id="@+id/btnDelete"
             android:layout_width="0dp"
@@ -166,7 +174,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="onOperationAdd"
             android:layout_weight="1"
             android:text="@string/addition"/>
 
@@ -183,7 +191,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_margin="2dp"
-            android:onClick="onDigit"
+            android:onClick="OnEgalisation"
             android:layout_weight="1"
             android:text="@string/egal"/>
 

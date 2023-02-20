@@ -17,5 +17,6 @@
     <string name="soustraction">-</string>
     <string name="delete">Eff</string>
     <string name="egal">=</string>
+    <string name="decimal">.</string>
 
 </resources>
